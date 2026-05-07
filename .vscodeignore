@@ -4,3 +4,5 @@
 .vscodeignore
 node_modules/**
 *.vsix
+image
+*.md
