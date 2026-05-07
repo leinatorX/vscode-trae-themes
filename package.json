@@ -1,0 +1,53 @@
+{
+  "name": "trae-themes",
+  "displayName": "Trae Themes",
+  "description": "The default Trae editor light and dark themes for VS Code",
+  "categories": [
+    "Themes"
+  ],
+  "version": "0.0.1",
+  "publisher": "finalsummer",
+  "license": "MIT",
+  "scripts": {
+    "package": "npx @vscode/vsce package"
+  },
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "Dark",
+        "label": "%dark%",
+        "description": "%darkDescription%",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_plus.json"
+      },
+      {
+        "id": "Deep Blue",
+        "label": "%deepBlue%",
+        "description": "%deepBlueDescription%",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_blue.json"
+      },
+      {
+        "id": "Light",
+        "label": "%light%",
+        "description": "%lightDescription%",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "trae",
+    "dark",
+    "light",
+    "color-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/642661520/vscode-trae-themes.git"
+  }
+}
