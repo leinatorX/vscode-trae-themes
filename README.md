@@ -8,7 +8,7 @@
 | Dark（暗色） | ![暗色](image/README/1778121742319.png) |
 | Light（亮色） | ![亮色](image/README/1778122008141.png) |
 
-> 本插件源码来源于 `Trae\resources\app\extensions\theme-icube`，由 Claude Code + DeepSeek-V4 辅助完成。主要修复了深蓝（Deep Blue）配色问题，暗色（Dark）保持原版未改动。
+> 本插件源码来源于 `Trae\resources\app\extensions\theme-icube`，由 Claude Code 辅助完成。修复了深蓝（Deep Blue）和暗色（Dark）主题的配色与语法高亮问题，亮色（Light）主题同样进行了适配。
 
 ## 安装步骤
 
@@ -28,9 +28,9 @@
 2. VS Code 中 `Ctrl+Shift+P` → `Extensions: Install from VSIX...` 选择下载的文件
 3. 安装后 `Ctrl+K Ctrl+T` 选择主题
 
-## 深蓝配色修复
+## 配色修复
 
-> 以下修复仅针对 Deep Blue（深蓝）主题。
+> 以下修复主要针对 Deep Blue（深蓝）主题。
 
 ### Trae 与 VS Code 不兼容
 
@@ -57,10 +57,6 @@ Trae 使用了自有的 `icube.*` 颜色变量，VS Code 无法识别，导致 U
 | 受限模式横幅背景 | — | — |
 | 行内代码背景 | — | — |
 | Git 相关 UI 颜色 | — | — |
-
-## 亮色修复
-
-- 状态栏文字不可见 → 背景 `#EDEFF2`，文字 `#31353A`
 
 ## 二次开发
 
