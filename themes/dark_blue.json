@@ -94,7 +94,7 @@
     "editor.inactiveSelectionBackground": "#2E3743",
     "editor.selectionBackground": "#3579FF47",
     "editor.selectionHighlightBackground": "#ADD6FF26",
-    "editor.lineHighlightBackground": "#282B3A",
+    "editor.lineHighlightBackground": "#0000003F",
     "editorLink.activeForeground": "#4E94CE",
     "editorIndentGuide.background": "#B0C0F414",
     "editorIndentGuide.activeBackground": "#B0C0F42E",

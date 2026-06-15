@@ -8,6 +8,7 @@
 - 三主题通用 `storage` / `storage.type` / `storage.modifier` 一并改为关键字色，修复 C# `public` / `private` / `class` / `void` 等在 Roslyn 语义高亮未就绪时回退为紫色的闪烁问题
 - 三主题各追加 10 条 `source.cs` 专用规则（注释 / 关键字 / 控制流 / 修饰符 / 类型 / 方法 / 字段属性 / 字符串含 verbatim & interpolated / 数字 / this-base）
 - 三主题 `semanticTokenColors` 从 4 条扩展到 28 条，补全 C# Roslyn / C# Dev Kit 语义 token
+- Deep Blue 主题 `editor.lineHighlightBackground` 由 `#282B3A` 改为 `#0000003F`（半透明黑色叠加），减弱当前行高亮阴影对比度
 - README 新增 Unity / C# 推荐 settings 片段
 
 ## 0.1.1 (2026-06-15)
