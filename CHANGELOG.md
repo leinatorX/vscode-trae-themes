@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 (2026-06-15)
+
+- Deep Blue 主题语法高亮改为 VS2022 Dark+ 经典配色（关键字蓝、类型青绿、函数浅黄、注释绿、字符串橙红、数字浅绿、变量浅蓝、控制流紫、枚举亮蓝）
+- Deep Blue 主题通用 `storage` / `storage.type` / `storage.modifier` 改为蓝色 `#569cd6`，修复 `public` / `private` / `class` / `void` 等 C# 关键字在 Roslyn 语义高亮未就绪时仍渲染为紫色的问题
+- Deep Blue 主题追加 10 条 `source.cs` 专用规则，覆盖注释 / 关键字 / 控制流 / 修饰符 / 类型 / 方法 / 字段属性 / 字符串（含 verbatim & interpolated）/ 数字 / this-base
+- Deep Blue 主题扩展 `semanticTokenColors`，补全 C# Roslyn / C# Dev Kit 语义 token（namespace / class / struct / interface / enum / delegate / type / typeParameter / method / function / property / field / event / variable / parameter / enumMember / constant / keyword / modifier / label / comment / string / number / operator）
+
 ## 0.1.0 (2026-05-16)
 
 - 修复终端光标颜色缺失

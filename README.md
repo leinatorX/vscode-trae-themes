@@ -24,7 +24,7 @@
 
 ### 第二步：安装本插件
 
-1. 前往 [Releases](https://github.com/642661520/vscode-trae-themes/releases) 下载 `trae-themes-*.vsix`
+1. 前往 [Releases](https://github.com/leinatorX/vscode-trae-themes/releases) 下载 `trae-themes-*.vsix`
 2. VS Code 中 `Ctrl+Shift+P` → `Extensions: Install from VSIX...` 选择下载的文件
 3. 安装后 `Ctrl+K Ctrl+T` 选择主题
 
@@ -61,7 +61,7 @@ Trae 使用了自有的 `icube.*` 颜色变量，VS Code 无法识别，导致 U
 ## 二次开发
 
 ```bash
-git clone https://github.com/642661520/vscode-trae-themes.git
+git clone https://github.com/leinatorX/vscode-trae-themes.git
 cd vscode-trae-themes
 # 编辑 themes/ 下的主题 JSON 文件，修改颜色
 npm run package
