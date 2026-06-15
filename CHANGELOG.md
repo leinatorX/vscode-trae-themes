@@ -10,6 +10,7 @@
 - 三主题 `semanticTokenColors` 从 4 条扩展到 28 条，补全 C# Roslyn / C# Dev Kit 语义 token
 - Deep Blue 主题 `editor.lineHighlightBackground` 由 `#282B3A` 改为 `#0000003F`（半透明黑色叠加），减弱当前行高亮阴影对比度
 - Deep Blue 主题 `tab.activeBorderTop` 由 `#FFFFFF` 改为 `#00BCD480`（青绿半透明），活跃标签顶部白线改为柔和的青色高亮
+- Deep Blue 主题 `sash.hoverBorder` 由 `#32F08C` 改为 `#00BCD480`，侧栏/编辑器分隔条在 hover 时不再呈鲜绿高亮
 - README 新增 Unity / C# 推荐 settings 片段
 
 ## 0.1.1 (2026-06-15)

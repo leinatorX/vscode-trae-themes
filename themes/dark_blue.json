@@ -226,7 +226,7 @@
     "checkbox.foreground": "#D1D3DB",
     "checkbox.selectBackground": "#2E3743",
     "checkbox.selectBorder": "#9599A6",
-    "sash.hoverBorder": "#32F08C",
+    "sash.hoverBorder": "#00BCD480",
     "quickInputList.focusBackground": "#B0C0F417",
     "quickInput.background": "#1E242F",
     "quickInput.foreground": "#D1D3DB",
