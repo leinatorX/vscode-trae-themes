@@ -163,13 +163,13 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#737780"
+        "foreground": "#6A9955"
       }
     },
     {
       "scope": "constant.language",
       "settings": {
-        "foreground": "#80BBFF"
+        "foreground": "#569cd6"
       }
     },
     {
@@ -180,7 +180,7 @@
         "keyword.operator.minus.exponent"
       ],
       "settings": {
-        "foreground": "#F48CCA"
+        "foreground": "#b5cea8"
       }
     },
     {
@@ -337,25 +337,25 @@
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#B38CFF"
+        "foreground": "#569cd6"
       }
     },
     {
       "scope": "storage.type",
       "settings": {
-        "foreground": "#B38CFF"
+        "foreground": "#569cd6"
       }
     },
     {
       "scope": ["storage.modifier", "keyword.operator.noexcept"],
       "settings": {
-        "foreground": "#B38CFF"
+        "foreground": "#569cd6"
       }
     },
     {
       "scope": ["string", "meta.embedded.assembly"],
       "settings": {
-        "foreground": "#82D99F"
+        "foreground": "#ce9178"
       }
     },
     {
@@ -408,19 +408,19 @@
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#B38CFF"
+        "foreground": "#569cd6"
       }
     },
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#B38CFF"
+        "foreground": "#c586c0"
       }
     },
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#D5D8E0"
+        "foreground": "#D4D4D4"
       }
     },
     {
@@ -504,7 +504,7 @@
         "entity.name.operator.custom-literal"
       ],
       "settings": {
-        "foreground": "#F29D79"
+        "foreground": "#dcdcaa"
       }
     },
     {
@@ -544,7 +544,7 @@
         "storage.type.primitive.groovy"
       ],
       "settings": {
-        "foreground": "#81CFE0"
+        "foreground": "#4ec9b0"
       }
     },
     {
@@ -559,7 +559,7 @@
         "punctuation.separator.namespace.ruby"
       ],
       "settings": {
-        "foreground": "#B38CFF"
+        "foreground": "#569cd6"
       }
     },
     {
@@ -587,14 +587,14 @@
         "constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#DED47E"
+        "foreground": "#9cdcfe"
       }
     },
     {
       "name": "Constants and enums",
       "scope": ["variable.other.constant", "variable.other.enummember"],
       "settings": {
-        "foreground": "#80BBFF"
+        "foreground": "#4fc1ff"
       }
     },
     {
@@ -672,7 +672,7 @@
     {
       "scope": "entity.name.label",
       "settings": {
-        "foreground": "#82D99F"
+        "foreground": "#c8c8c8"
       }
     },
     {
@@ -680,13 +680,156 @@
       "settings": {
         "foreground": "#E0E3EE"
       }
+    },
+    {
+      "name": "C# comments",
+      "scope": [
+        "comment.line.cs",
+        "comment.line.double-slash.cs",
+        "comment.block.cs",
+        "comment.block.documentation.cs"
+      ],
+      "settings": {
+        "foreground": "#6A9955"
+      }
+    },
+    {
+      "name": "C# keywords",
+      "scope": ["keyword.cs", "keyword.other.cs"],
+      "settings": {
+        "foreground": "#569cd6"
+      }
+    },
+    {
+      "name": "C# control flow keywords",
+      "scope": ["keyword.control.cs", "keyword.control.flow.cs"],
+      "settings": {
+        "foreground": "#c586c0"
+      }
+    },
+    {
+      "name": "C# modifiers / using / namespace",
+      "scope": [
+        "storage.modifier.cs",
+        "keyword.other.using.cs",
+        "keyword.other.directive.using.cs",
+        "keyword.other.namespace.cs"
+      ],
+      "settings": {
+        "foreground": "#569cd6"
+      }
+    },
+    {
+      "name": "C# types and references",
+      "scope": [
+        "entity.name.type.class.cs",
+        "entity.name.type.struct.cs",
+        "entity.name.type.enum.cs",
+        "entity.name.type.interface.cs",
+        "entity.name.type.delegate.cs",
+        "entity.name.type.record.cs",
+        "storage.type.cs",
+        "storage.type.generic.cs",
+        "storage.type.modifier.cs",
+        "storage.type.variable.cs",
+        "storage.type.built-in.cs",
+        "storage.type.primitive.cs",
+        "support.type.cs",
+        "support.class.cs",
+        "entity.name.namespace.cs"
+      ],
+      "settings": {
+        "foreground": "#4ec9b0"
+      }
+    },
+    {
+      "name": "C# methods / functions",
+      "scope": [
+        "entity.name.function.cs",
+        "meta.method.cs entity.name.function.cs",
+        "meta.method.declaration.cs entity.name.function.cs",
+        "support.function.cs"
+      ],
+      "settings": {
+        "foreground": "#dcdcaa"
+      }
+    },
+    {
+      "name": "C# fields / properties / parameters / locals",
+      "scope": [
+        "variable.other.readwrite.cs",
+        "variable.other.readwrite.cs.field",
+        "variable.other.readwrite.cs.property",
+        "entity.name.variable.cs",
+        "entity.name.variable.field.cs",
+        "variable.parameter.cs"
+      ],
+      "settings": {
+        "foreground": "#9cdcfe"
+      }
+    },
+    {
+      "name": "C# strings",
+      "scope": [
+        "string.quoted.double.cs",
+        "string.quoted.single.cs",
+        "string.verbatim.cs",
+        "string.quoted.interpolated.cs"
+      ],
+      "settings": {
+        "foreground": "#ce9178"
+      }
+    },
+    {
+      "name": "C# numbers",
+      "scope": "constant.numeric.cs",
+      "settings": {
+        "foreground": "#b5cea8"
+      }
+    },
+    {
+      "name": "C# this / base",
+      "scope": "variable.language.cs",
+      "settings": {
+        "foreground": "#569cd6"
+      }
     }
   ],
   "semanticTokenColors": {
-    "newOperator": "#E0E3EE",
-    "stringLiteral": "#82D99F",
-    "customLiteral": "#E0E3EE",
-    "numberLiteral": "#F48CCA"
+    "newOperator": "#c586c0",
+    "stringLiteral": "#ce9178",
+    "customLiteral": "#dcdcaa",
+    "numberLiteral": "#b5cea8",
+
+    "namespace:csharp": "#4ec9b0",
+    "class:csharp": "#4ec9b0",
+    "struct:csharp": "#4ec9b0",
+    "interface:csharp": "#4ec9b0",
+    "enum:csharp": "#4ec9b0",
+    "delegate:csharp": "#4ec9b0",
+    "type:csharp": "#4ec9b0",
+    "typeParameter:csharp": "#4ec9b0",
+
+    "method:csharp": "#dcdcaa",
+    "function:csharp": "#dcdcaa",
+
+    "property:csharp": "#9cdcfe",
+    "field:csharp": "#9cdcfe",
+    "event:csharp": "#9cdcfe",
+    "variable:csharp": "#9cdcfe",
+    "parameter:csharp": "#9cdcfe",
+
+    "enumMember:csharp": "#4fc1ff",
+    "constant:csharp": "#4fc1ff",
+
+    "keyword:csharp": "#569cd6",
+    "modifier:csharp": "#569cd6",
+
+    "label:csharp": "#c8c8c8",
+    "comment:csharp": "#6A9955",
+    "string:csharp": "#ce9178",
+    "number:csharp": "#b5cea8",
+    "operator:csharp": "#D4D4D4"
   },
   "semanticHighlighting": true
 }

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.0 (2026-06-15)
+
+- 三个主题（Deep Blue / Dark / Light）代码配色统一改为 VS2022 经典风格：
+  - 暗色系（Deep Blue、Dark）：关键字 `#569cd6`、类型 `#4ec9b0`、函数 `#dcdcaa`、注释 `#6A9955`、字符串 `#ce9178`、数字 `#b5cea8`、变量 `#9cdcfe`、控制流 `#c586c0`、枚举 `#4fc1ff`、标签 `#c8c8c8`
+  - 浅色（Light）：关键字 `#0000ff`、类型 `#267f99`、函数 `#795e26`、注释 `#008000`、字符串 `#a31515`、数字 `#098658`、变量 `#001080`、控制流 `#af00db`、枚举 `#0070c1`、标签 `#000000`
+- 三主题通用 `storage` / `storage.type` / `storage.modifier` 一并改为关键字色，修复 C# `public` / `private` / `class` / `void` 等在 Roslyn 语义高亮未就绪时回退为紫色的闪烁问题
+- 三主题各追加 10 条 `source.cs` 专用规则（注释 / 关键字 / 控制流 / 修饰符 / 类型 / 方法 / 字段属性 / 字符串含 verbatim & interpolated / 数字 / this-base）
+- 三主题 `semanticTokenColors` 从 4 条扩展到 28 条，补全 C# Roslyn / C# Dev Kit 语义 token
+- README 新增 Unity / C# 推荐 settings 片段
+
 ## 0.1.1 (2026-06-15)
 
 - Deep Blue 主题语法高亮改为 VS2022 Dark+ 经典配色（关键字蓝、类型青绿、函数浅黄、注释绿、字符串橙红、数字浅绿、变量浅蓝、控制流紫、枚举亮蓝）

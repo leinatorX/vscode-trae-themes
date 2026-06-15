@@ -22,6 +22,17 @@
 "editor.lineHeight": 1.7
 ```
 
+### Unity / C# 开发者推荐配置
+
+启用 Roslyn / C# Dev Kit 语义高亮，享受精确的 namespace / type / method / property / field / parameter 着色：
+
+```json
+"editor.semanticHighlighting": true,
+"csharp.semanticHighlighting.enabled": true
+```
+
+> 在 Unity 项目中，Roslyn 需要先解析 `.csproj`。打开 `.cs` 文件的头几秒会先用 TextMate tokenColors 渲染（VS2022 配色），Roslyn 完成解析后语义高亮接管，期间不会闪色。
+
 ### 第二步：安装本插件
 
 1. 前往 [Releases](https://github.com/leinatorX/vscode-trae-themes/releases) 下载 `trae-themes-*.vsix`
